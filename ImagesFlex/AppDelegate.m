@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "NextViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +16,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    /*
+     第二种方法
+     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+     self.window.rootViewController = [NextViewController new];
+     [self.window makeKeyAndVisible];
+     */
     // Override point for customization after application launch.
     return YES;
 }

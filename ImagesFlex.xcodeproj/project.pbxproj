@@ -13,6 +13,8 @@
 		98D360B21D3A8A6F002D57E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D360B01D3A8A6F002D57E5 /* Main.storyboard */; };
 		98D360B41D3A8A6F002D57E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D360B31D3A8A6F002D57E5 /* Assets.xcassets */; };
 		98D360B71D3A8A6F002D57E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D360B51D3A8A6F002D57E5 /* LaunchScreen.storyboard */; };
+		98D360C01D3A8A85002D57E5 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D360BF1D3A8A85002D57E5 /* NextViewController.m */; };
+		98D360C21D3A8ABA002D57E5 /* qwe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98D360C11D3A8ABA002D57E5 /* qwe.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		98D360B31D3A8A6F002D57E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98D360B61D3A8A6F002D57E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98D360B81D3A8A6F002D57E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D360BE1D3A8A85002D57E5 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		98D360BF1D3A8A85002D57E5 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		98D360C11D3A8ABA002D57E5 /* qwe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qwe.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				98D360AB1D3A8A6F002D57E5 /* AppDelegate.m */,
 				98D360AD1D3A8A6F002D57E5 /* ViewController.h */,
 				98D360AE1D3A8A6F002D57E5 /* ViewController.m */,
+				98D360BE1D3A8A85002D57E5 /* NextViewController.h */,
+				98D360BF1D3A8A85002D57E5 /* NextViewController.m */,
+				98D360C11D3A8ABA002D57E5 /* qwe.jpg */,
 				98D360B01D3A8A6F002D57E5 /* Main.storyboard */,
 				98D360B31D3A8A6F002D57E5 /* Assets.xcassets */,
 				98D360B51D3A8A6F002D57E5 /* LaunchScreen.storyboard */,
@@ -137,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98D360B71D3A8A6F002D57E5 /* LaunchScreen.storyboard in Resources */,
+				98D360C21D3A8ABA002D57E5 /* qwe.jpg in Resources */,
 				98D360B41D3A8A6F002D57E5 /* Assets.xcassets in Resources */,
 				98D360B21D3A8A6F002D57E5 /* Main.storyboard in Resources */,
 			);
@@ -150,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98D360AF1D3A8A6F002D57E5 /* ViewController.m in Sources */,
+				98D360C01D3A8A85002D57E5 /* NextViewController.m in Sources */,
 				98D360AC1D3A8A6F002D57E5 /* AppDelegate.m in Sources */,
 				98D360A91D3A8A6F002D57E5 /* main.m in Sources */,
 			);
